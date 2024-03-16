@@ -1,0 +1,30 @@
+#!meta
+
+{"kernelInfo":{"defaultKernelName":"csharp","items":[{"aliases":[],"name":"csharp"}]}}
+
+#!fsharp
+
+//This is a comment in an F# block
+
+///xml comment in an F# block
+let x = 1
+
+#!fsharp
+
+///tooltip for function
+let y v = 
+    v + 1
+
+#!fsharp
+
+//test
+y 1
+|> printfn "%A"
+
+#!mermaid
+
+flowchart LR
+  A[Avalonia] --> B[SKia]--> C{Decision}
+  
+  C --> D[Result one]
+  C --> E[Result two]
